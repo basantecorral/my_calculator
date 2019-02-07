@@ -6,12 +6,19 @@ function cube() {
   num.value = Math.pow(num.value, 3);
 }
 </script>
+
+
+<script type="text/javascript">
+function raizcuarta() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value, 4);
+}
+</script>
 <script type ="text/javascript">
 var x;
 function sin(x){
-  x = document.getElementById('n1');
+  x = document.getElementById("n1");
   x.value = Math.sin(x.value);
-
 }
 </script>
 </head>
@@ -20,6 +27,7 @@ function sin(x){
   Number:<input type="text" id="n1"><p>
     <button onclick="cube()"> x^3 </button>
     <button onclick="sin(x)"> sin </button>
+    <button onclick="raizcuarta()"> x^4 </button>
   </p>
 </body>
 </html>
